@@ -6,14 +6,14 @@ Then i did the Data Preprocessing step. For this i standardized the Numerical fe
 Then i splitted the data into training and test sets for model evaluation.
 
 To train the model, i used Various regression models (Linear Regression, Ridge, Lasso, Decision Tree, Random Forest, SVR, and KNN namely)
-I evaluated them using Mean Squared Error (MSE), R² Score, and cross-validation scores to assess their prediction accuracy. The "Random Forest" model performed the best, providing the highest R² score and robust performance across cross-validation folds.
+I evaluated them using Mean Squared Error (MSE), R² Score, and cross-validation scores to assess their prediction accuracy. The Ridge regression model performed the best, providing the highest R² score and robust performance across cross-validation folds.
 
 I did the Feature Importance Analysis using Random Forest. It showed that the 'total_bill', 'size', and 'time' are significant predictors of tip amounts. This insight indicates that these features should be central to strategies for improving service and predicting tips and are very important.
 
 Also, i did the Residual Analysis to ensure the model’s accuracy, confirming that errors were randomly distributed around zero with no issues, indicating that the model fit the data well.
 
 Key Findings and Insights:
--Best Model: Random Forest showed the best predictive performance.
+-Best Model: Ridge regression model showed the best predictive performance.
 Important Factors: 'total_bill', 'size', and 'time' were the most influential features.
 Management Recommendations: 
 -Focus on Total Bill**: The amount of the bill strongly influences tips, suggesting that upselling or managing bill size could impact tipping.
